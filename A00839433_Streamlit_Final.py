@@ -66,7 +66,7 @@ ax1.spines["top"].set_visible(False)
 ax1.spines["right"].set_visible(False)
 ax1.spines["left"].set_visible(False)
 ax1.spines["bottom"].set_visible(False)
-ax1.ticklabel_format(style='plain', axis='y')
+ax1.ticklabel_format(style='plain', axis='x')
 st.pyplot(fig1)
 
 st.subheader("Deaths by country and age group")
