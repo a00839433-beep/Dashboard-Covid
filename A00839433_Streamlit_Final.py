@@ -66,7 +66,7 @@ ax1.spines["top"].set_visible(False)
 ax1.spines["right"].set_visible(False)
 ax1.spines["left"].set_visible(False)
 ax1.spines["bottom"].set_visible(False)
-
+ax1.ticklabel_format(style='plain', axis='y')
 st.pyplot(fig1)
 
 st.subheader("Deaths by country and age group")
@@ -92,7 +92,7 @@ ax2.spines["top"].set_visible(False)
 ax2.spines["right"].set_visible(False)
 ax2.spines["left"].set_visible(False)
 ax2.spines["bottom"].set_visible(False)
-ax2.xaxis.set_major_formatter(StrMethodFormatter('{x:,.0f}'))
+ax2.yaxis.set_major_formatter(StrMethodFormatter('{x:,.0f}'))
 
 plt.xticks(rotation=0)
 
@@ -113,7 +113,7 @@ ax3.spines["top"].set_visible(False)
 ax3.spines["right"].set_visible(False)
 ax3.spines["left"].set_visible(False)
 ax3.spines["bottom"].set_visible(False)
-ax3.xaxis.set_major_formatter(StrMethodFormatter('{x:,.0f}'))
+ax3.yaxis.set_major_formatter(StrMethodFormatter('{x:,.0f}'))
 
 plt.xticks(rotation=0)
 
